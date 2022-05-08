@@ -50,11 +50,9 @@ int main()
 					cout << "#" << t << " " << "A0" << endl;
 				else
 					cout << "#" << t << " " << "A+" << endl;
-
 				break;
 			}
 		}
     }
-
     return 0;
 }

@@ -5,6 +5,10 @@
 using namespace std;
 
 int main(){
+    ios_base :: sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+    
     int T,N,M,cnt_B, cnt_W;  //테스트 케이스 수, 보드 길이, 돌의 개수, 흑돌개수, 백돌개수
     vector<int> vec_x, vec_y, res_vec;    //바꿀 좌표 저장 벡터, 결과 저장 벡터
     cin >> T >> N >> M;

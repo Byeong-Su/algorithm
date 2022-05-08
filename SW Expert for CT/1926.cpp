@@ -19,7 +19,11 @@ void game(int num){
     //10의 자리수 일때
     else if(num<100){
         digit_1=(num%10);
+        //0인경우 방지
+        if(digit_1==0){ digit_1=1; }
         digit_10=(num/10);
+        //0인경우 방지
+        if(digit_10==0){ digit_10=10; }
         //두 자리수 다 369
         if( (digit_10%3==0) && (digit_1%3==0) ){
             cout << "--";
@@ -35,9 +39,14 @@ void game(int num){
     else if(num<1000){
         digit_1=(num%10);
         digit_10=((num%100)/10);
-        digit_100=(num/100);
+        digit_100=((num%1000)/100);//0인경우 방지
+        if(digit_1==0){ digit_1=1; }
+        //0인경우 방지
+        if(digit_10==0){ digit_10=10; }
+        //0인경우 방지
+        if(digit_100==0){ digit_100=100; }
         //세 자리수 다 369
-        if( (digit_100%3==0) && (digit_10%3==0) && (digit_10%3==0) ){
+        if( (digit_100%3==0) && (digit_10%3==0) && (digit_1%3==0) ){
             cout << "---";
         }
         //두 자리수만 369
