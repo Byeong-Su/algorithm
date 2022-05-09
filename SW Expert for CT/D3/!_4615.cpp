@@ -1,3 +1,4 @@
+//오셀로
 //https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWQmA4uK8ygDFAXj
 #include <iostream>
 #include <vector>
