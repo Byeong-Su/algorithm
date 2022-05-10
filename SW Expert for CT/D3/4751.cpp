@@ -22,33 +22,31 @@ int main()
         for(int i=1; i<str.length(); i++){
             cout << ".#..";
         }
-        cout << '\n;'
+        cout << '\n';
         //2번째줄
         cout << ".#.#.";
         for(int i=1; i<str.length(); i++){
             cout << "#.#.";
         }
-        cout << '\n;'
+        cout << '\n';
         //3번째줄
-        cout << "";
+        cout << "#." << str[0] << ".#";
         for(int i=1; i<str.length(); i++){
-            
+            cout << '.' << str[i] << ".#";
         }
-        cout << '\n;'
+        cout << '\n';
         //4번째줄
-        cout << "";
+        cout << ".#.#.";
         for(int i=1; i<str.length(); i++){
-            
+            cout << "#.#.";
         }
-        cout << '\n;'
+        cout << '\n';
         //5번째줄
-        cout << "";
+        cout << "..#..";
         for(int i=1; i<str.length(); i++){
-            
+            cout << ".#..";
         }
-        cout << '\n;'
-        //출력
-        cout << '#' << t << ' ' << 1 << '\n';
+        cout << '\n';
     }
 
     return 0;
