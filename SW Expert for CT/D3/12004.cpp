@@ -10,12 +10,17 @@ int main()
     cin.tie(NULL);
     cout.tie(NULL);
 
-    int T;      //테스트케이스 수
+    int T,N,cnt;      //테스트케이스 수, 10미만의 약수이면서 나눠지는 수도 10이하인거 카운트
     cin >> T;
     for(int t=1; t<=T; t++){
-        
+        cin >> N;
+        cnt=0;
+        for(int i=1; i<10; i++){
+            if( ((N%i)==0) && ((N/i)<10) ){ cnt++; }
+        }
         //출력
-        cout << '#' << t << ' ' << 1 << '\n';
+        if(cnt>0){ cout << '#' << t << ' ' << "Yes" << '\n'; }
+        else{ cout << '#' << t << ' ' << "No" << '\n'; }
     }
 
     return 0;

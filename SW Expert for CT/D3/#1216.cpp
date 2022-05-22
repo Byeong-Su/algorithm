@@ -45,8 +45,6 @@ int main()
             }
         }
 
-        
-        //가로축 탐색
         for(int i=0; i<N; i++){
             for(int j=0; j<N; j++){
                 for(int k=N-1; k>=0; k--){
