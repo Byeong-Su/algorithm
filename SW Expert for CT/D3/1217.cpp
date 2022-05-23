@@ -10,7 +10,7 @@ int main()
     cin.tie(NULL);
     cout.tie(NULL);
 
-    int T, N, M, res;
+    int N;
 
     for(int t=1; t<=10; t++){
         cin >> T >> N >> M;
