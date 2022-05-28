@@ -1,6 +1,17 @@
 //[S/W 문제해결 기본] 3일차 - 회문2
 //https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14Rq5aABUCFAYi
 //3*3으로 했을때는 맞게 나오는데..
+/*
+1289
+1954
+2805
+2001
+
+9229
+1949
+5215
+5607
+*/
 #include <iostream>
 
 using namespace std;
