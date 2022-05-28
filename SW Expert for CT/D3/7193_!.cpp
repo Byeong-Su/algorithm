@@ -2,6 +2,7 @@
 //https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=3&contestProbId=AWksRkI6AR0DFAVE&categoryId=AWksRkI6AR0DFAVE&categoryType=CODE&problemTitle=7193&orderBy=PASS_RATE&selectCodeLang=ALL&select-1=3&pageSize=10&pageIndex=1
 //(A + B) % M = ((A % M) + (B % M)) % M 임을 활용(페르마의 소정리 기법)
 #include <iostream>
+#include <string>
 
 using namespace std;
 

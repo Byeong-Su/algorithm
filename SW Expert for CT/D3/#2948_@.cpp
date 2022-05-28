@@ -1,6 +1,7 @@
 //문자열 교집합
 //https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV-Un3G64SUDFAXr
 #include <iostream>
+#include <string>
 
 using namespace std;
 

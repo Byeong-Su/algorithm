@@ -38,6 +38,7 @@ int main()
                 if(sum > max){ max=sum; }
                 left++;
             }
+            //sum==M인 경우
             else{
                 max=sum;
                 break;

@@ -5,8 +5,7 @@
 
 using namespace std;
 
-int main()
-{
+int main(){
     ios_base :: sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
@@ -122,6 +121,7 @@ int main(int argc, char** argv)
 					sum *= 2;
 				else  if (a[i] != a[i - 1] && a[i] != a[i + 1] && a[i - 1] == a[i + 1])
 					sum *= 2;
+                //3개 다 다르면 3가지 경우 나오므로 곱하기 3
 				else  if (a[i] != a[i - 1] && a[i] != a[i + 1] && a[i - 1] != a[i + 1])
 					sum *= 3;
 			}
