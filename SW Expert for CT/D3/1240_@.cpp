@@ -7,7 +7,7 @@
 //  int data=100; string st=to_string(data);
 // 2)string 에서 int로 변경하기
 //  string st = "100"; int data = stoi(st);
-// 3)int를 char로 변경하기
+// 3)char에서 int로 변경하기
 //  int data = 0; char ch = '9'; data = ch - '0';     (숫자 0은 아스키코드 48부터 시작하므로 48에 해당하는 '0' 빼줘야함)
 // 4) int에서 char로 변경하기
 //  int data = 9; char ch = (char)(data + 48);      (숫자 아스키코드는 48부터 시작하므로 +48)

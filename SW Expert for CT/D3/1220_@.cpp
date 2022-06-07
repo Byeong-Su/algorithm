@@ -1,6 +1,5 @@
-//[S/W 문제해결 기본] 1일차 - Flatten
-//https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=3&contestProbId=AV139KOaABgCFAYh&categoryId=AV139KOaABgCFAYh&categoryType=CODE&problemTitle=1208&orderBy=INQUERY_COUNT&selectCodeLang=ALL&select-1=3&pageSize=10&pageIndex=1
-//자성체 제거 필요없이 교착상태만 확인해주면 됨
+//1220. [S/W 문제해결 기본] 5일차 - Magnetic
+//https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14hwZqABsCFAYD&categoryId=AV14hwZqABsCFAYD&categoryType=CODE&problemTitle=1220&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1//자성체 제거 필요없이 교착상태만 확인해주면 됨
 #include <iostream>
 
 using namespace std;

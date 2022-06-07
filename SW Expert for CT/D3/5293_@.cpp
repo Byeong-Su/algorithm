@@ -3,6 +3,7 @@
 //백트레킹
 //문자열  NULL검사를 기존 s=""에서 !s.empty()로 바꾸고 문자열 초기화를 s=""에서 s.clear()로 바꾸니까 됨
 #include <iostream>
+#include <string>
 
 using namespace std;
 
