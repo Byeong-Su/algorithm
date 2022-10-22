@@ -6,7 +6,9 @@ using namespace std;
 
 int solution(vector<int> scoville, int K) {
     int answer = 0;
+    //내림차순
     priority_queue<int, vector<int>, greater<int>> pq;
+    //큐에 scoville 값 삽입
     for(int i=0; i<scoville.size(); i++){
         pq.push(scoville[i]);
     }
