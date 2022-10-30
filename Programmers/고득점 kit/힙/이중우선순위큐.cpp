@@ -31,7 +31,7 @@ vector<int> solution(vector<string> operations) {
             //stoi() str="-1234" to int(-1234)
             Gpq.push(stoi(num));
             Lpq.push(stoi(num));
-			 cnt++;
+			cnt++;
         }
 		//삭제
         else{
@@ -52,8 +52,9 @@ vector<int> solution(vector<string> operations) {
 	
 	//큐에 요소가 남아있는 경우 최소, 최대값 answer에 삽입
 	if(cnt){
-		answer.push_back(Gpq.top());
+        answer.clear();
 		answer.push_back(Lpq.top());
+		answer.push_back(Gpq.top());
 	}
     
     return answer;
