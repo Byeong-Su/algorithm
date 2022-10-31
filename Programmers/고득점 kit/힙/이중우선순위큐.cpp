@@ -15,7 +15,6 @@ vector<int> solution(vector<string> operations) {
     priority_queue<int, vector<int>, less<int>> Lpq;
     
     for(int i=0; i<operations.size(); i++){
-		
 		//cnt==0으로 큐에 아무것도 남아있지 않은 상태
 		//최대, 최소 큐 모두 초기화
 		if(!cnt){
