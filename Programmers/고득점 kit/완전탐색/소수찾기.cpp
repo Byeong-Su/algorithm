@@ -5,16 +5,17 @@
 
 using namespace std;
 
-map<int, bool> map;
+//중복된 수 재검사 하지 않기 위해 map 사용
+map<int, bool> m;
 
 bool prime_num(string num){
     //string to int
     int n = stoi(num);
     
     //map[n]이 true이면 이미 확인한 수 이므로 중복 확인하지 않기 위해 false 반환
-    if(map[n]){ return false; }
+    if(m[n]){ return false; }
     
-    map[n] = true;
+    m[n] = true;
     //예외처리
     if(n==1 || n==0){ return false; }
     if(n==2){ return true; }
@@ -22,12 +23,11 @@ bool prime_num(string num){
     for(int i=2; i<=sqrt(n); i++){
         //0이면 이미 삭제된 수 이므로 false리턴
         if(n%i == 0){ 
-            map[n] == -1;
+            m[n] = -1;
             return false;
         }
     }
-    map[n] == 1;
-    
+    m[n] = 1;    
     return true;
 }
 
