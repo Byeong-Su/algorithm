@@ -7,7 +7,7 @@ using namespace std;
 
 //중복된 수 재검사 하지 않기 위해 map 사용
 map<int, bool> m;
-
+//
 bool prime_num(string num){
     //string to int
     int n = stoi(num);
