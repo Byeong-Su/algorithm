@@ -12,7 +12,6 @@ int solution(int k, int m, vector<int> score) {
     while(idx<score.size()){
         answer+=(score[idx]*m);
         idx+=m;
-    }   
-
+    }
     return answer;
 }
